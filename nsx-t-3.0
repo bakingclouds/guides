@@ -1,0 +1,28 @@
+# Introdcution
+Blueprint: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/certification/vmw-2v0-41.20-exam-prep-guide.pdf
+
+# Good to have
+Skills on NSX-V
+Knowleadge of NSX-T 3.0 features from VMware product page
+
+# Focus areas to cover for the exam
+    Data Plane
+    Control Plane
+    Management Plane
+    Routing
+    CLI
+    Packet forward
+    Mutli-tier routing: T0 and T1
+    Syslog
+    NSX Components
+    Interconnection of areas: management, controller and data plane
+ 
+# Objective 2.1 Describe the VMware Virtual Cloud Network Vision
+=======
+NOTE: this objective does not requires to spend much time on it and is not one of most important in the exam
+Recommended reading https://www.vmware.com/solutions/virtual-cloud-network.html
+=======
+  Software Defined
+  Ubiquitous Software Layer
+  Secure, pervasive, end to end connectivity
+  Application operation insights
