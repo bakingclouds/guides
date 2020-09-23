@@ -18,11 +18,49 @@ Knowleadge of NSX-T 3.0 features from VMware product page
     Interconnection of areas: management, controller and data plane
  
 # Objective 2.1 Describe the VMware Virtual Cloud Network Vision
+    Solution vision is
+        Software Defined
+        Ubiquitous Software Layer
+        Secure, pervasive, end to end connectivity
+        Application operation insights
+
 =======
 NOTE: this objective does not requires to spend much time on it and is not one of most important in the exam
-Recommended reading https://www.vmware.com/solutions/virtual-cloud-network.html
+Recommended reading 
+https://www.vmware.com/solutions/virtual-cloud-network.html
+https://blogs.vmware.com/networkvirtualization/2020/01/nsx-cloud-5-easy-resources.html
 =======
-  Software Defined
-  Ubiquitous Software Layer
-  Secure, pervasive, end to end connectivity
-  Application operation insights
+
+# Objective 2.2 Outline the solutions of NSX Portfolio
+    Become familiar with:
+        NSX Datacenter
+        NSX Cloud
+        VMware SD-WAN by Velocloud
+        vRealize Network Insight
+        AppDefense
+        NSX Hybrid Connect
+
+=======
+NOTE: this objective does not requires to spend much time on all products. The important is NSX Datacenter others mentioned does not take much room of the exam
+Recommended reading overview of below
+https://www.vmware.com/products/vrealize-network-insight.html
+https://www.vmware.com/products/sd-wan-by-velocloud.html
+https://blogs.vmware.com/networkvirtualization/nsx-features-capabilities/
+=======
+
+# Objective 2.3 List the use-cases for NSX Data Center
+    Key areas to cover
+        Security
+        Multi Cloud Networking
+        Automation
+        Cloud Native Applications
+
+
+=======
+NOTE: this objective does not requires to spend much time on all products. The important is NSX Datacenter others mentioned does not take much room of the exam
+Recommended reading important docs below
+https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/administration/GUID-F206A4B8-0F33-482D-8727-E71FE253BBCD.html
+https://blogs.vmware.com/networkvirtualization/2019/03/nsx-cloud-2-4.html/
+https://blogs.vmware.com/networkvirtualization/2020/01/nsx-cloud-5-easy-resources.html
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/nsx/vmware-automation-fundamentals-book.pdf
+=======
