@@ -26,6 +26,7 @@ Knowleadge of NSX-T 3.0 features from VMware product page
 
 =======
 NOTE: this objective does not requires to spend much time on it and is not one of most important in the exam
+
 Recommended reading 
 https://www.vmware.com/solutions/virtual-cloud-network.html
 https://blogs.vmware.com/networkvirtualization/2020/01/nsx-cloud-5-easy-resources.html
@@ -42,6 +43,7 @@ https://blogs.vmware.com/networkvirtualization/2020/01/nsx-cloud-5-easy-resource
 
 =======
 NOTE: this objective does not requires to spend much time on all products. The important is NSX Datacenter others mentioned does not take much room of the exam
+
 Recommended reading overview of below
 https://www.vmware.com/products/vrealize-network-insight.html
 https://www.vmware.com/products/sd-wan-by-velocloud.html
@@ -58,6 +60,7 @@ https://blogs.vmware.com/networkvirtualization/nsx-features-capabilities/
 
 =======
 NOTE: this objective does not requires to spend much time on all products. The important is NSX Datacenter others mentioned does not take much room of the exam
+
 Recommended reading important docs below
 https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/administration/GUID-F206A4B8-0F33-482D-8727-E71FE253BBCD.html
 https://blogs.vmware.com/networkvirtualization/2019/03/nsx-cloud-2-4.html/
@@ -65,3 +68,52 @@ https://blogs.vmware.com/networkvirtualization/2020/01/nsx-cloud-5-easy-resource
 https://www.vmware.com/solutions/container-networking.html
 https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/nsx/vmware-automation-fundamentals-book.pdf
 =======
+
+    # Objective 2.4 Explain the value proposition and features of NSX
+        Understand: 
+            The different hypervisyor support and how are implemented
+            Services available e.g. L2/L3 VPN
+            Networking e.g. VLAN vs Overlay
+            Automation options e.g. REST Support
+            Operational features e.g. Granular RBAC
+            Troubleshooting e.g. TraceFlow
+            Overlay Networking: Geneve
+            N-VDS
+=======
+NOTE: this objective does not requires to deep dive but to understand how the all fit in and the big picture.
+
+Recommended reading 
+https://www.vmware.com/products/nsx.html
+https://docs.vmware.com/en/VMware-Validated-Design/5.0.1/com.vmware.vvd.sddc-nsxt-design.doc/GUID-CF3C47CA-9BEB-4213-8F08-1494261BF3EC.html
+https://medium.com/@ravijagannathan/nvds-in-nsx-t-20e4080ff564
+=======
+
+    # Objective 2.5 Identify Physical and Virtual Infrastructure Requirements for NSX-T Data Center
+    NSX Manager: types of VMs, methods of deployment
+        - VM host types
+        - Resource requeriments
+    Transport Nodes: size of nodes in ESXi and KVM        
+        - Host Types
+        - Resource requeriments
+    Network latency requeriments:        
+    Edge Nodes:
+        - Deployment Types
+        - VM requeriments and NIC types
+        - DPDK: what is, what does, how is used
+    Networking Issues:
+        - MTU
+        - Port Usage
+        - NIC Offload
+=======
+Recommended reading 
+Chapter3 Installation Guide: https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/installation/GUID-EC9633E5-3CF1-433B-B7B5-FC9BBB3EE8F0.html
+NSX Multisite: https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/administration/GUID-5D7E3D43-6497-4273-99C1-77613C36AD75.html
+DPDK:
+    https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/installation/GUID-22F87CA8-01A9-4F2E-B7DB-9350CA60EA4E.html
+    https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/installation/GUID-14C3F618-AB8D-427E-AC88-F05D1A04DE40.html?hWord=N4IghgNiBcICIAU4GkAEBnArgB2wewCcAXEAXyA
+    https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/installation/GUID-F459E3E4-F5F2-4032-A723-07D4051EFF8D.html?hWord=N4IghgNiBcICIAU4GkAEBnArgB2wewCcAXEAXyA
+    https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.0/installation/GUID-53295329-F02F-44D7-A6E0-2E3A9FAE6CF9.html?hWord=N4IghgNiBcICIAU4GkAEBnArgB2wewCcAXEAXyA
+http://doc.dpdk.org/guides/index.html
+=======
+
+# Objective 2.6 Describe NSX Architecture and Component sub-systems
